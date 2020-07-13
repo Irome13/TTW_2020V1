@@ -67,7 +67,6 @@ toc = time.perf_counter()
 print('Time elapsed: ',toc-tic)
 
 #Support Vector Machine Classifier: train and test
-
 #get initial time for performance counter:
 tic = time.perf_counter()
 #define classifier:
