@@ -9,7 +9,7 @@ import time
 # 1. get dataset
 # https://www.kaggle.com/mlg-ulb/creditcardfraud
 
-# 2. read dataset
+# 2. read dataset: https://janakiev.com/blog/csv-in-python/
 data_path = 'Datasets/creditcard.csv'
 with open(data_path, 'r') as f:
     reader = csv.reader(f, delimiter=',')
